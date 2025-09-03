@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Shop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #fff8f0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #e4c1f9;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-color: #fde2e4;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .products {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .products h2 {
+            margin-bottom: 30px;
+        }
+
+        .product-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            width: 200px;
+            transition: transform 0.3s;
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .product-card h3 {
+            margin: 10px 0 5px;
+        }
+
+        .product-card p {
+            font-weight: bold;
+            color: #b47eb3;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #e4c1f9;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>💎 Sparkle Jewelry</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Elegant Jewelry for Every Occasion</h2>
+        <p>Discover timeless beauty in every piece</p>
+    </section>
+
+    <section class="products">
+        <h2>Our Collection</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="Gold Ring">
+                <h3>Gold Ring</h3>
+                <p>$199.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="Diamond Necklace">
+                <h3>Diamond Necklace</h3>
+                <p>$499.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="Silver Bracelet">
+                <h3>Silver Bracelet</h3>
+                <p>$149.99</p>
+            </div>
+            <!-- Add more product cards if needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sparkle Jewelry. All rights reserved.</p>
+    </footer>
+</body>
+</html>
